@@ -6,7 +6,8 @@ namespace MarsRovers
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Rover Rover1 = new Rover();
+            Rover1.PilotRover();
         }
     }
 }
